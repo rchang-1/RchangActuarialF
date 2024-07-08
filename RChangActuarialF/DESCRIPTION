@@ -1,0 +1,11 @@
+Package: RchangActuarialF
+Title: Actuarial Functions for Financial Analysis
+Version: 0.1.0
+Authors@R: 
+    person(Dr. Roberto Chang López <rchang@example.com>, role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides various actuarial functions for financial analysis including NPV, IRR, portfolio optimization, and more.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
