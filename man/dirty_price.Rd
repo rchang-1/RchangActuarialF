@@ -2,39 +2,25 @@
 % Please edit documentation in R/dirty_price.R
 \name{dirty_price}
 \alias{dirty_price}
-\title{Dirty Price (Full Price) of a Bond}
+\title{Calculate Dirty Price}
 \usage{
-dirty_price(
-  clean_price,
-  coupon_rate,
-  days_since_last_coupon,
-  days_in_coupon_period,
-  face_value,
-  coupons_per_year
-)
+dirty_price(clean_price, accrued_interest)
 }
 \arguments{
-\item{clean_price}{The clean price of the bond (price without accrued interest).}
+\item{clean_price}{The clean price of the bond.}
 
-\item{coupon_rate}{The annual coupon rate of the bond.}
-
-\item{days_since_last_coupon}{The number of days since the last coupon payment.}
-
-\item{days_in_coupon_period}{The total number of days in the coupon period.}
-
-\item{face_value}{The face value (par value) of the bond.}
-
-\item{coupons_per_year}{The number of coupon payments per year.}
+\item{accrued_interest}{The accrued interest of the bond.}
 }
 \value{
-The dirty price (full price) of the bond.
+The dirty price of the bond.
 }
 \description{
-Calculates the dirty price (full price) of a bond given its clean price, coupon rate, days since last coupon, days in coupon period, and face value.
+Calculates the dirty price of a bond given the clean price and the accrued interest.
 }
 \details{
 Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
 }
 \examples{
 # Example usage:
+dirty_price(100, 2)
 }

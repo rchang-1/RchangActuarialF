@@ -18,11 +18,10 @@ The estimated fair value of the stock.
 Estimates the fair value of a stock using Comparable Companies Analysis.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
+
+Comparable Companies Analysis (CCA) Function
 }
 \examples{
 # Example usage:
-comparable_pe_ratio <- 20
-earnings_per_share <- 4
-cca(comparable_pe_ratio, earnings_per_share)
 }

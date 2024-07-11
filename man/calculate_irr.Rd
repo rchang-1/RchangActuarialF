@@ -2,8 +2,8 @@
 % Please edit documentation in R/calculate_irr.R
 \name{calculate_irr}
 \alias{calculate_irr}
-\title{#' Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+\title{Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 calculate_irr(initial_investment, cash_flows)
 }
@@ -20,9 +20,4 @@ Calculate Internal Rate of Return (IRR)
 }
 \details{
 This function calculates the internal rate of return of a series of cash flows given an initial investment.
-}
-\examples{
-initial_investment <- -1000
-cash_flows <- c(100, 200, 300)
-calculate_irr(initial_investment, cash_flows)
 }

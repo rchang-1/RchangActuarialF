@@ -7,19 +7,28 @@
 npv_plot(cash_flows, rates = seq(0, 0.2, by = 0.01))
 }
 \arguments{
-\item{cash_flows}{A numeric vector of cash flows.}
+\item{cash_flows}{Un vector numérico de flujos de efectivo.}
 
-\item{rates}{A numeric vector of discount rates to plot. Default is seq(0, 0.2, by = 0.01).}
+\item{rates}{Un vector numérico de tasas de descuento para graficar. Por defecto es seq(0, 0.2, by = 0.01).}
 }
 \value{
 A plot of NPV against discount rates.
+
+Un gráfico del VAN contra las tasas de descuento.
 }
 \description{
 Plots the NPV against a range of discount rates.
+
+This function plots the Net Present Value (NPV) against a range of discount rates using Plotly.
 }
 \details{
 Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
 }
 \examples{
 # Example usage:
+# Define cash flows for the example
+# cash_flows <- c(-1000, 200, 300, 400)
+npv_plot(cash_flows)
+# Ejemplo de uso:
+# Definir flujos de efectivo para el ejemplo
 }

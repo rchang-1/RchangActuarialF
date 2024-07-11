@@ -18,12 +18,8 @@ The estimated fair value of the stock.
 Calculates the present value of future dividends using the Dividend Discount Model.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
-#'
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
-dividends <- c(2.5, 2.7, 3.0, 3.2, 3.5)
-discount_rate <- 0.1
-ddm(dividends, discount_rate)
 }

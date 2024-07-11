@@ -20,8 +20,11 @@ A data frame with columns: period, principal_paid, interest_paid, and balance.
 Creates an amortization schedule given a principal amount, interest rate, and number of periods.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
-# Example usage:
+# Example 1: Amortization schedule for a loan of $100,000 with a 5\% annual interest rate over 20 periods
+amortization_schedule(100000, 0.05, 20)
+
+# Example 2: Amortization schedule for a loan of $50,000 with a 3\% annual interest rate over 15 periods
 }

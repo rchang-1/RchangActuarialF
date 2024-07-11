@@ -1,31 +1,29 @@
 ## Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
 #' Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
 #
-#' @title Dirty Price (Full Price) of a Bond
-#' @description Calculates the dirty price (full price) of a bond given its clean price, coupon rate, days since last coupon, days in coupon period, and face value.
-#' @param clean_price The clean price of the bond (price without accrued interest).
-#' @param coupon_rate The annual coupon rate of the bond.
-#' @param days_since_last_coupon The number of days since the last coupon payment.
-#' @param days_in_coupon_period The total number of days in the coupon period.
-#' @param face_value The face value (par value) of the bond.
-#' @param coupons_per_year The number of coupon payments per year.
-#' @return The dirty price (full price) of the bond.
+##' @title Calculate Dirty Price
+#' @description Calculates the dirty price of a bond given the clean price and the accrued interest.
+#' @param clean_price The clean price of the bond.
+#' @param accrued_interest The accrued interest of the bond.
+#' @return The dirty price of the bond.
 #' @examples
 #' # Example usage:
-# dirty_price(950, 0.05, 60, 180, 1000, 2)
-dirty_price <- function(clean_price, coupon_rate, days_since_last_coupon, days_in_coupon_period, face_value, coupons_per_year) {
-  # Calculate accrued interest
-  accrued_interest <- (coupon_rate * face_value / coupons_per_year) * (days_since_last_coupon / days_in_coupon_period)
+#' dirty_price(100, 2)
+#' @export
+dirty_price <- function(clean_price, accrued_interest) {
+  # Calcular el precio sucio
+  price <- clean_price + accrued_interest
 
-  # Calculate dirty price
-  dirty_price <- clean_price + accrued_interest
-
-  return(dirty_price)
+  # Retornar el precio sucio
+  return(price)
 }
 
-# Explicación y Uso:
-#   Precio Sucio (dirty_price): Esta función toma el precio limpio del bono, la tasa de cupón, los días transcurridos desde el último pago de cupón, los días en el período del cupón, el valor nominal del bono y la cantidad de pagos de cupón por año para calcular el precio sucio completo del bono.
-#
-# Precio Limpio (clean_price): Esta función toma el precio sucio del bono, la tasa de cupón, los días transcurridos desde el último pago de cupón, los días en el período del cupón, el valor nominal del bono y la cantidad de pagos de cupón por año para calcular el precio limpio del bono.
-#
-# Estas funciones son útiles para realizar cálculos financieros detallados relacionados con bonos, teniendo en cuenta los días transcurridos desde el último pago de cupón. Esto es esencial para determinar precios precisos tanto limpios como sucios en mercados financieros.
+
+#' @title Calcular Precio Sucio
+#' @description Calcula el precio sucio de un bono dado el precio limpio y el interés acumulado.
+#' @param clean_price El precio limpio del bono.
+#' @param accrued_interest El interés acumulado del bono.
+#' @return El precio sucio del bono.
+#' @examples
+#' # Ejemplo de uso:
+#' dirty_price(100, 2)

@@ -19,7 +19,7 @@ This function plots the Efficient Frontier given a data frame containing Return,
 }
 \examples{
 # Example usage with efficient_frontier function
-returns <- matrix(rnorm(100 * 4, mean = 150, sd = 20), nrow = 100, ncol = 4)
+returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
 colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
 cov_matrix <- cov(returns)
 frontier <- efficient_frontier(returns, cov_matrix)

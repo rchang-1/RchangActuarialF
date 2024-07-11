@@ -1,9 +1,8 @@
 ## Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-#' Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
-#'
-#' Bond Yield Function Plot using Plotly
-#'
-#' This function plots the bond yield function given the bond parameters.
+#' Professor of PhD and Master's in Systems, Economics, and Statistics for Scientific Research
+##
+#' @title Bond Yield Function Plot using Plotly
+#' @description This function plots the bond yield function given the bond parameters.
 #'
 #' @param face_value The face value (par value) of the bond.
 #' @param price The current market price of the bond.
@@ -13,12 +12,16 @@
 #' @return A plotly object representing the bond yield function.
 #'
 #' @examples
-#' # Example usage:
+#' # Example 1: Plot the bond yield function for a bond with a face value of $1000, current price $950,
+#' #            5% coupon rate, and 10 years until maturity.
 # bond_yield_plotly(1000, 950, 0.05, 10)
+#'
+#' # Example 2: Plot the bond yield function for a bond with a face value of $500, current price $480,
+#' #            4.5% coupon rate, and 5 years until maturity.
+# bond_yield_plotly(500, 480, 0.045, 5)
 #' @export
-# Function to plot bond yield function
 bond_yield_plotly <- function(face_value, price, coupon_rate, nper) {
-  # Verificar si plotly está instalado
+  # Check if plotly is installed
   if (!requireNamespace("plotly", quietly = TRUE)) {
     install.packages("plotly")
     library(plotly)
@@ -55,3 +58,24 @@ bond_yield_plotly <- function(face_value, price, coupon_rate, nper) {
                   line = list(color = 'black', width = 1, dash = 'dash'))
            ))
 }
+
+# Explicación en español:
+# Esta función `bond_yield_plotly` grafica la función de rendimiento de un bono dado los parámetros del bono.
+#
+# Parámetros:
+# - `face_value`: El valor nominal (valor par) del bono.
+# - `price`: El precio de mercado actual del bono.
+# - `coupon_rate`: La tasa de cupón anual del bono.
+# - `nper`: El número de períodos (años) hasta el vencimiento del bono.
+#
+# Salida:
+# - Un objeto plotly que representa la función de rendimiento del bono.
+#
+# Ejemplos Aplicados:
+# 1. Graficar la función de rendimiento de un bono con valor nominal de $1000, precio actual $950,
+#    tasa de cupón del 5% y 10 años hasta el vencimiento.
+#    bond_yield_plotly(1000, 950, 0.05, 10)
+#
+# 2. Graficar la función de rendimiento de un bono con valor nominal de $500, precio actual $480,
+#    tasa de cupón del 4.5% y 5 años hasta el vencimiento.
+#    bond_yield_plotly(500, 480, 0.045, 5)

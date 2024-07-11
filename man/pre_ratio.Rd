@@ -7,19 +7,39 @@
 pre_ratio(earnings_per_share, pe_ratio)
 }
 \arguments{
-\item{earnings_per_share}{The current earnings per share.}
+\item{earnings_per_share}{The current earnings per share.
+Ganancias por acción actuales.}
 
-\item{pe_ratio}{The desired Price-to-Earnings (P/E) Ratio.}
+\item{pe_ratio}{The desired Price-to-Earnings (P/E) Ratio.
+Ratio precio-ganancias (P/E) deseado.}
 }
 \value{
 The estimated fair value of the stock.
+El valor estimado justo de la acción.
+
+The estimated fair value of the stock.
+El valor estimado justo de la acción.
 }
 \description{
 Estimates the fair value of a stock using the Price-to-Earnings (P/E) Ratio.
+
+Esta función estima el valor justo de una acción utilizando el Price-to-Earnings (P/E) Ratio.
+
+Estimates the fair value of a stock using the Price-to-Earnings (P/E) Ratio.
+
+Esta función estima el valor justo de una acción utilizando el Price-to-Earnings (P/E) Ratio.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+# Ejemplo de uso:
+earnings_per_share <- 3.5
+pe_ratio <- 15
+pre_ratio(earnings_per_share, pe_ratio)
+
+# Example usage:
+# Ejemplo de uso:
+
 }

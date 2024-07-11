@@ -28,6 +28,8 @@ Calculates the Net Present Value (NPV) given a discount rate and cash flows.
 Calculates the Net Present Value (NPV) given a discount rate and cash flows.
 
 Calculates the Net Present Value (NPV) given a discount rate and cash flows.
+
+This function calculates the Net Present Value (NPV) given a discount rate and a vector of cash flows.
 }
 \details{
 Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
@@ -40,4 +42,5 @@ npv(0.1, c(-100, 50, 75, 200))
 # Calculates the NPV for a discount rate of 0.1 and cash flows: -100, 50, 75, 200
 npv(0.1, c(-100, 50, 75, 200))
 # Example usage:
+npv(0.1, c(-100, 50, 75, 200))
 }

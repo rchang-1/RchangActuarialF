@@ -16,6 +16,8 @@ The Present Value.
 }
 \description{
 Calculates the Present Value (PV) of a perpetuity.
+
+This function calculates the Present Value (PV) of a perpetuity given a discount rate and payment amount per period.
 }
 \details{
 Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica

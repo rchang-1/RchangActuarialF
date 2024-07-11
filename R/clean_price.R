@@ -24,7 +24,8 @@ clean_price <- function(dirty_price, coupon_rate, days_since_last_coupon, days_i
 }
 
 # Explicación y Uso:
-#   Precio Sucio (dirty_price): Esta función toma el precio limpio del bono, la tasa de cupón, los días transcurridos desde el último pago de cupón, los días en el período del cupón, el valor nominal del bono y la cantidad de pagos de cupón por año para calcular el precio sucio completo del bono.
+#
+# Precio Sucio (dirty_price): Esta función toma el precio limpio del bono, la tasa de cupón, los días transcurridos desde el último pago de cupón, los días en el período del cupón, el valor nominal del bono y la cantidad de pagos de cupón por año para calcular el precio sucio completo del bono.
 #
 # Precio Limpio (clean_price): Esta función toma el precio sucio del bono, la tasa de cupón, los días transcurridos desde el último pago de cupón, los días en el período del cupón, el valor nominal del bono y la cantidad de pagos de cupón por año para calcular el precio limpio del bono.
 #

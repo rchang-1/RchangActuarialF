@@ -22,8 +22,9 @@ The bond yield.
 Calculates the yield (rate of return) of a bond given its price, face value, coupon rate, and number of periods.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+
 }

@@ -7,16 +7,32 @@
 plot_portfolio_return(weights, returns)
 }
 \arguments{
-\item{weights}{A numeric vector of portfolio weights (proportions).}
+\item{weights}{A numeric vector of portfolio weights (proportions).
+Vector numérico de los pesos del portafolio (proporciones).}
 
-\item{returns}{A numeric vector or matrix of asset returns.}
+\item{returns}{A numeric vector or matrix of asset returns.
+Vector numérico o matriz de rendimientos de activos.}
 }
 \value{
 A Plotly object representing the portfolio return.
+Objeto Plotly que representa el rendimiento del portafolio.
 }
 \description{
 This function plots the portfolio return given different asset weights and returns.
+
+Esta función grafica el rendimiento de un portafolio dado diferentes pesos de activos y sus rendimientos.
+}
+\details{
+Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+# Ejemplo de uso:
+# Generate example data
+# Generar datos de ejemplo
+#' # Plot portfolio return
+#' # Graficar el rendimiento del portafolio
+plot_portfolio_return(weights, asset_returns)
+
 }

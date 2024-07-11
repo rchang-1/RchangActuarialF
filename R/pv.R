@@ -15,3 +15,12 @@
 pv <- function(rate, cash_flow, period) {
   cash_flow / (1 + rate)^period
 }
+
+#' @description Calcula el Valor Presente (VP) de un único flujo de efectivo.
+#' @param tasa La tasa de descuento.
+#' @param flujo_efectivo El monto del flujo de efectivo.
+#' @param periodo El período en el cual ocurre el flujo de efectivo.
+#' @return El Valor Presente.
+#' @examples
+#' # Ejemplo de uso:
+#' vp(0.1, 100, 1)

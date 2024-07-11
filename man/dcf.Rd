@@ -18,7 +18,7 @@ The estimated fair value of the stock.
 Calculates the present value of future cash flows using the Discounted Cash Flow method.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:

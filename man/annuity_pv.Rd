@@ -20,8 +20,10 @@ The Present Value.
 Calculates the Present Value (PV) of an annuity.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
-# Example usage:
+# Example 1: Present Value of an annuity with a 5\% discount rate over 10 periods and $100 payment per period
+
+# Example 2: Present Value of an annuity with a 3\% discount rate over 15 periods and $200 payment per period
 }

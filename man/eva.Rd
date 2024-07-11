@@ -7,12 +7,14 @@
 eva(net_operating_profit_after_tax, weighted_average_cost_of_capital)
 }
 \arguments{
-\item{net_operating_profit_after_tax}{Net Operating Profit After Tax (NOPAT).}
+\item{net_operating_profit_after_tax}{Ganancia Operativa Neta después de Impuestos (NOPAT).}
 
-\item{weighted_average_cost_of_capital}{Weighted Average Cost of Capital (WACC).}
+\item{weighted_average_cost_of_capital}{Costo Promedio Ponderado de Capital (WACC).}
 }
 \value{
 The estimated fair value of the stock.
+
+El valor estimado justo de la acción.
 }
 \description{
 Calculates the Economic Value Added (EVA) for a stock.
@@ -25,4 +27,7 @@ Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la 
 net_operating_profit_after_tax <- 1000000
 weighted_average_cost_of_capital <- 0.08
 eva(net_operating_profit_after_tax, weighted_average_cost_of_capital)
+
+# Ejemplo de uso:
+
 }

@@ -22,8 +22,8 @@ The price of the bond.
 Calculates the price of a bond given its face value, coupon rate, market rate, and number of periods.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
-# Example usage:
+# Example 1: Calculate the price of a bond with a face value of $1000, 5\% coupon rate, 3\% market rate, and 10 years until maturity.
 }

@@ -7,19 +7,26 @@
 portfolio_variance(weights, covariance_matrix)
 }
 \arguments{
-\item{weights}{A numeric vector of portfolio weights (proportions).}
+\item{weights}{A numeric vector of portfolio weights (proportions).
+Vector numérico de los pesos del portafolio (proporciones).}
 
-\item{covariance_matrix}{A covariance matrix of asset returns.}
+\item{covariance_matrix}{A covariance matrix of asset returns.
+Matriz de covarianza de los rendimientos de los activos.}
 }
 \value{
 The portfolio variance.
+La varianza del portafolio.
 }
 \description{
 Calculates the variance of a portfolio given asset weights and a covariance matrix.
+
+Esta función calcula la varianza de un portafolio dado los pesos de los activos y una matriz de covarianza.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+# Ejemplo de uso:
+
 }

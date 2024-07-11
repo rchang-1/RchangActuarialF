@@ -20,12 +20,8 @@ The estimated fair value of the stock.
 Calculates the fair value of a stock using the Discounted Dividend Growth Model.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
-dividend <- 2.5
-growth_rate <- 0.04
-discount_rate <- 0.1
-ddgm(dividend, growth_rate, discount_rate)
 }

@@ -7,21 +7,27 @@
 interest_rate(pv, fv, period)
 }
 \arguments{
-\item{pv}{The present value.}
+\item{pv}{El valor presente.}
 
-\item{fv}{The future value.}
+\item{fv}{El valor futuro.}
 
-\item{period}{The period over which the interest rate is calculated.}
+\item{period}{El periodo sobre el cual se calcula la tasa de interés.}
 }
 \value{
 The interest rate.
+
+La tasa de interés.
 }
 \description{
 Calculates the interest rate given present value (PV) and future value (FV).
+
+This function calculates the interest rate given the present value (PV) and future value (FV) over a specified period.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+interest_rate(100, 200, 5)
+# Ejemplo de uso:
 }

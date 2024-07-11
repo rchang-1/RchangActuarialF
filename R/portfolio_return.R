@@ -16,3 +16,10 @@
 portfolio_return <- function(weights, returns) {
   sum(weights * returns)
 }
+
+#' @title Función de Retorno del Portafolio
+#' @description Calcula el retorno de un portafolio dados los pesos y los retornos de los activos.
+#' @param pesos Un vector numérico con los pesos del portafolio (proporciones).
+#' @param retornos Un vector numérico o una matriz de retornos de los activos.
+#' @return El retorno del portafolio.
+

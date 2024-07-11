@@ -122,7 +122,7 @@ npv <- function(rate, cash_flows) {
 #' @examples
 #' # Example usage:
 #' # Plots the IRR for cash flows: -100, 50, 75, 200
-#' irr_plot(c(-100, 50, 75, 200))
+# irr_plot(c(-100, 50, 75, 200))
 #' @export
 irr_plot <- function(cash_flows, guesses = seq(0.01, 0.5, by = 0.01)) {
   library(plotly)

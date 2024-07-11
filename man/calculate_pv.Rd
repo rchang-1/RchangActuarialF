@@ -2,8 +2,8 @@
 % Please edit documentation in R/calculate_pv.R
 \name{calculate_pv}
 \alias{calculate_pv}
-\title{Dr. Roberto Chang López  / rchang@unah.edu.hn / rchang@unitec.edu
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+\title{Dr. Roberto Chang López / rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 calculate_pv(cash_flows, rate)
 }
@@ -20,9 +20,4 @@ Calculate Present Value (PV)
 }
 \details{
 This function calculates the present value of a series of cash flows given a discount rate.
-}
-\examples{
-cash_flows <- c(100, 200, 300)
-rate <- 0.05
-calculate_pv(cash_flows, rate)
 }

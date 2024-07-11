@@ -2,8 +2,8 @@
 % Please edit documentation in R/calculate_mirr.R
 \name{calculate_mirr}
 \alias{calculate_mirr}
-\title{#' Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+\title{Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 calculate_mirr(initial_investment, cash_flows, finance_rate, reinvestment_rate)
 }
@@ -24,11 +24,4 @@ Calculate Modified Internal Rate of Return (MIRR)
 }
 \details{
 This function calculates the modified internal rate of return (MIRR) of a series of cash flows given an initial investment, a finance rate, and a reinvestment rate.
-}
-\examples{
-initial_investment <- -1000
-cash_flows <- c(100, 200, 300, 400, 500)
-finance_rate <- 0.05
-reinvestment_rate <- 0.08
-calculate_mirr(initial_investment, cash_flows, finance_rate, reinvestment_rate)
 }

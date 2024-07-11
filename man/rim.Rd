@@ -7,23 +7,27 @@
 rim(residual_incomes, discount_rate)
 }
 \arguments{
-\item{residual_incomes}{A numeric vector of expected future residual incomes.}
+\item{residual_incomes}{A numeric vector of expected future residual incomes.
+Vector numérico de los ingresos residuales futuros esperados.}
 
-\item{discount_rate}{The discount rate (required rate of return).}
+\item{discount_rate}{The discount rate (required rate of return).
+Tasa de descuento (tasa requerida de retorno).}
 }
 \value{
 The estimated fair value of the stock.
+El valor estimado justo de la acción.
 }
 \description{
 Calculates the present value of future residual incomes using the Residual Income Model.
+
+Esta función calcula el valor presente de los ingresos residuales futuros utilizando el modelo de Residual Income.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 # File: R/rim.R
 }
 \examples{
 # Example usage:
-residual_incomes <- c(5, 5.5, 6, 6.5, 7)
-discount_rate <- 0.1
-rim(residual_incomes, discount_rate)
+# Ejemplo de uso:
+
 }

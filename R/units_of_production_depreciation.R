@@ -1,6 +1,6 @@
 # Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-# Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
-#
+# Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
+
 #' Units of Production Depreciation
 #'
 #' This function calculates the units of production depreciation of an asset.
@@ -22,5 +22,19 @@ units_of_production_depreciation <- function(cost, salvage, total_units, units_p
   return(schedule)
 }
 
+#' Depreciación por Unidades de Producción
+#'
+#' Esta función calcula la depreciación por unidades de producción de un activo.
+#'
+#' @param cost Costo inicial del activo.
+#' @param salvage Valor de rescate del activo al final de su vida útil.
+#' @param total_units Unidades totales esperadas de producción durante la vida útil del activo.
+#' @param units_produced Un vector numérico que representa las unidades producidas cada año.
+#' @return Un data frame con las columnas Año, Depreciación, y Valor en Libros.
+#' @examples
+
 # Example usage:
+# units_of_production_depreciation(10000, 2000, 50000, c(10000, 12000, 8000, 15000, 5000))
+
+#' # Ejemplo de uso:
 # units_of_production_depreciation(10000, 2000, 50000, c(10000, 12000, 8000, 15000, 5000))

@@ -18,12 +18,16 @@ irr(cash_flows, guess = 0.1)
 \value{
 The Internal Rate of Return.
 
+La Tasa Interna de Retorno (TIR).
+
 The Internal Rate of Return.
 
 The Internal Rate of Return.
 }
 \description{
 Calculates the Internal Rate of Return (IRR) given a series of cash flows.
+
+This function calculates the Internal Rate of Return (IRR) given a series of cash flows and an initial guess.
 
 Calculates the Internal Rate of Return (IRR) given a series of cash flows.
 
@@ -36,6 +40,8 @@ Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la 
 }
 \examples{
 # Example usage:
+irr(c(-100, 50, 75, 200))
+# Ejemplo de uso:
 # Example usage:
 # Returns the Internal Rate of Return for cash flows: -100, 50, 75, 200
 irr(c(-100, 50, 75, 200))

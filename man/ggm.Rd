@@ -7,21 +7,30 @@
 ggm(dividend, growth_rate, discount_rate)
 }
 \arguments{
-\item{dividend}{The current dividend per share.}
+\item{dividend}{El dividendo actual por acción.}
 
-\item{growth_rate}{The expected constant growth rate of dividends.}
+\item{growth_rate}{La tasa de crecimiento constante esperada de los dividendos.}
 
-\item{discount_rate}{The discount rate (required rate of return).}
+\item{discount_rate}{La tasa de descuento (tasa de retorno requerida).}
 }
 \value{
 The estimated fair value of the stock.
+
+El valor estimado justo de la acción.
 }
 \description{
 Calculates the fair value of a stock using the Gordon Growth Model.
+
+This function calculates the fair value of a stock using the Gordon Growth Model (GGM).
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+dividend <- 2
+growth_rate <- 0.05
+discount_rate <- 0.1
+ggm(dividend, growth_rate, discount_rate)
+# Ejemplo de uso:
 }

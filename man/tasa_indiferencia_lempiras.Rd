@@ -7,21 +7,28 @@
 tasa_indiferencia_lempiras(tasa_en_dolares, devaluacion_anual)
 }
 \arguments{
-\item{tasa_en_dolares}{The dollar interest rate.}
+\item{tasa_en_dolares}{La tasa de interés en dólares.}
 
-\item{devaluacion_anual}{The annual devaluation rate of Lempira.}
-
-\item{tasa_en_dolares_anual}{The effective annual dollar interest rate.}
+\item{devaluacion_anual}{La tasa de devaluación anual del Lempira.}
 }
 \value{
 The indifference rate in Lempiras.
+
+La tasa de indiferencia en Lempiras.
 }
 \description{
 Calculates the indifference rate in Lempiras given a dollar interest rate, annual devaluation rate of Lempira, and optionally a constant.
+
+Calcula la tasa de indiferencia en Lempiras dada una tasa de interés en dólares, la tasa de devaluación anual del Lempira, y opcionalmente una constante.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
 # Example usage:
+tasa_en_dolares <- 0.06  # 6\% dollar interest rate
+devaluacion_anual <- 0.05  # 5\% annual Lempira devaluation rate
+tasa_indiferencia_lempiras(tasa_en_dolares, devaluacion_anual)
+# Ejemplo de uso:
 }

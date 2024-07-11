@@ -3,7 +3,7 @@
 \name{calculate_npv}
 \alias{calculate_npv}
 \title{Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 calculate_npv(initial_investment, cash_flows, rate)
 }
@@ -22,10 +22,4 @@ Calculate Net Present Value (NPV)
 }
 \details{
 This function calculates the net present value of a series of cash flows given an initial investment and a discount rate.
-}
-\examples{
-initial_investment <- -1000
-cash_flows <- c(100, 200, 300)
-rate <- 0.05
-calculate_npv(initial_investment, cash_flows, rate)
 }

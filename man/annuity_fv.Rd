@@ -20,8 +20,11 @@ The Future Value.
 Calculates the Future Value (FV) of an annuity.
 }
 \details{
-Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 }
 \examples{
-# Example usage:
+# Example 1: Future Value of an annuity with a 5\% discount rate over 10 periods and $100 payment per period
+annuity_fv(0.05, 10, 100)
+
+# Example 2: Future Value of an annuity with a 3\% discount rate over 15 periods and $200 payment per period
 }

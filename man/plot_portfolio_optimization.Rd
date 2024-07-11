@@ -18,6 +18,9 @@ A Plotly object representing the optimal portfolio weights.
 \description{
 This function plots the optimal portfolio weights given asset returns and covariance matrix.
 }
+\details{
+First you need to calculate portfolio_optimization
+}
 \examples{
 # Example usage:
 }

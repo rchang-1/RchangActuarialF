@@ -29,5 +29,4 @@ Plots the Internal Rate of Return (IRR) against a range of initial guesses using
 irr_plot(c(-100, 50, 75, 200))
 # Example usage:
 # Plots the IRR for cash flows: -100, 50, 75, 200
-irr_plot(c(-100, 50, 75, 200))
 }

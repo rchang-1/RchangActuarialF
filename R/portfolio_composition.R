@@ -35,3 +35,15 @@ portfolio_composition <- function(weights, asset_names) {
 weights <- c(0.3, 0.5, 0.2)
 asset_names <- c("Stock A", "Stock B", "Stock C")
 portfolio_composition(weights, asset_names)
+
+#' Graficar la Composición del Portafolio
+#'
+#' Esta función grafica la composición de un portafolio dados los pesos y nombres de los activos.
+#'
+#' @param pesos Un vector numérico con los pesos de los activos.
+#' @param nombres_activos Un vector de caracteres con los nombres de los activos.
+#' @return Un objeto ggplot2 que representa la composición del portafolio.
+#' @examples
+#' pesos <- c(0.3, 0.5, 0.2)
+#' nombres_activos <- c("Acción A", "Acción B", "Acción C")
+#' composicion_portafolio(pesos, nombres_activos)

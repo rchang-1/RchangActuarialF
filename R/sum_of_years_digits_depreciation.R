@@ -57,3 +57,14 @@ sum_of_years_digits_depreciation <- function(cost, salvage, life) {
 #
 # # Example usage:
 # sum_of_years_digits_depreciation(10000, 2000, 5)
+#' Depreciación de la Suma de los Dígitos de los Años
+#'
+#' Esta función calcula la depreciación de la suma de los dígitos de los años de un activo.
+#'
+#' @param costo Costo inicial del activo.
+#' @param valor_residual Valor residual del activo al final de su vida útil.
+#' @param vida Vida útil del activo en años.
+#' @return Un data frame con las columnas Año, Depreciación y Valor en Libros.
+#' @examples
+#' # Ejemplo de uso:
+#' depreciacion_suma_digitos_anos(10000, 2000, 5)

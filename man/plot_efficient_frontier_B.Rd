@@ -2,19 +2,23 @@
 % Please edit documentation in R/plot_efficient_frontier_B.R
 \name{plot_efficient_frontier_B}
 \alias{plot_efficient_frontier_B}
-\title{Plot Efficient Frontier using ggplot2}
+\title{Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 plot_efficient_frontier_B(frontier_data, max_sharpe_data = NULL)
 }
 \arguments{
-\item{frontier_data}{A data frame with columns Return, Risk, and Sharpe_Ratio.}
-
-\item{max_sharpe_data}{A data frame with columns Max_Sharpe_Risk and Max_Sharpe_Return.}
+\item{frontier_data}{A data frame with columns Return, Risk, and Sharpe_Ratio.
+Un marco de datos con las columnas Return, Risk y Sharpe_Ratio.}
 }
 \value{
 A ggplot2 object representing the Efficient Frontier.
+Un objeto ggplot2 que representa la Frontera Eficiente.
 }
 \description{
+Plot Efficient Frontier using ggplot2
+}
+\details{
 This function plots the Efficient Frontier given a data frame containing Return, Risk, and Sharpe Ratio using ggplot2.
 }
 \examples{
@@ -24,4 +28,5 @@ colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
 cov_matrix <- cov(returns)
 frontier <- efficient_frontier(returns, cov_matrix)
 plot_efficient_frontier_B(frontier)
+
 }

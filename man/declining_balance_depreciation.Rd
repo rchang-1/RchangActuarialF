@@ -2,8 +2,7 @@
 % Please edit documentation in R/declining_balance_depreciation.R
 \name{declining_balance_depreciation}
 \alias{declining_balance_depreciation}
-\title{Declining Balance Depreciation
-This function calculates the declining balance depreciation of an asset.}
+\title{Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 declining_balance_depreciation(cost, rate, life)
 }
@@ -19,9 +18,12 @@ A data frame with columns Year, Depreciation, and Book Value.
 }
 \description{
 Declining Balance Depreciation
+}
+\details{
 This function calculates the declining balance depreciation of an asset.
 }
 \examples{
 # Example usage:
-declining_balance_depreciation(10000, 0.2, 5)
+
+
 }

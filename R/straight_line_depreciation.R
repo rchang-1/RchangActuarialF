@@ -42,3 +42,13 @@ straight_line_depreciation <- function(cost, salvage, life) {
 
 # # Example usage:
 # straight_line_depreciation(10000, 2000, 5)
+
+#' Esta función calcula la depreciación lineal de un activo.
+#'
+#' @param costo Costo inicial del activo.
+#' @param valor_residual Valor residual del activo al final de su vida útil.
+#' @param vida Vida útil del activo en años.
+#' @return Un data frame con las columnas Año, Depreciación y Valor en Libros.
+#' @examples
+#' # Ejemplo de uso:
+#' depreciacion_lineal(10000, 2000, 5)

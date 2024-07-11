@@ -2,7 +2,7 @@
 % Please edit documentation in R/bond_yield_plotly.R
 \name{bond_yield_plotly}
 \alias{bond_yield_plotly}
-\title{Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+\title{Bond Yield Function Plot using Plotly}
 \usage{
 bond_yield_plotly(face_value, price, coupon_rate, nper)
 }
@@ -19,11 +19,15 @@ bond_yield_plotly(face_value, price, coupon_rate, nper)
 A plotly object representing the bond yield function.
 }
 \description{
-Bond Yield Function Plot using Plotly
-}
-\details{
 This function plots the bond yield function given the bond parameters.
 }
+\details{
+Professor of PhD and Master's in Systems, Economics, and Statistics for Scientific Research
+}
 \examples{
-# Example usage:
+# Example 1: Plot the bond yield function for a bond with a face value of $1000, current price $950,
+#            5\% coupon rate, and 10 years until maturity.
+
+# Example 2: Plot the bond yield function for a bond with a face value of $500, current price $480,
+#            4.5\% coupon rate, and 5 years until maturity.
 }

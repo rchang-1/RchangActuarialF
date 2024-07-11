@@ -1,8 +1,8 @@
 #' Dr. Roberto Chang López  rchang@unah.edu.hn / rchang@unitec.edu
-#' Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica
+#' Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 #'
-#'
-# Generate a random dataset with stock tickers
+
+# # Generate a random dataset with stock tickers
 # set.seed(123)  # Set seed for reproducibility
 #
 # tickers <- c("AMZN", "MSFT", "TSLA", "AAPL")
@@ -76,7 +76,7 @@ efficient_frontier <- function(returns, cov_matrix, risk_free_rate = 0.02) {
 #' @return A Plotly object representing the Efficient Frontier.
 #' @examples
 #' # Example usage with efficient_frontier function
-#' returns <- matrix(rnorm(100 * 4, mean = 150, sd = 20), nrow = 100, ncol = 4)
+#' returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
 #' colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
 #' cov_matrix <- cov(returns)
 #' frontier <- efficient_frontier(returns, cov_matrix)
@@ -114,46 +114,42 @@ plot_efficient_frontier_A <- function(frontier_data, max_sharpe_data = NULL) {
   return(p)
 }
 
-# Example usage
-# returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
-# colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
-# cov_matrix <- cov(returns)
-# frontier <- efficient_frontier(returns, cov_matrix)
-#
-# # Define the maximum Sharpe Ratio point (example)
-# max_sharpe_data <- data.frame(Max_Sharpe_Risk = 0.04, Max_Sharpe_Return = 0.15)
-#
-# # Plot the Efficient Frontier with the maximum Sharpe Ratio point
-# plot_efficient_frontier_A(frontier, max_sharpe_data)
-#
-#
-#
-
-
-#' # Generar un dataset aleatorio con tickers de acciones
-#' set.seed(123)  # Establecer semilla para reproducibilidad
+# Ejemplo de uso
+#' returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
+#' colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
+#' cov_matrix <- cov(returns)
+#' frontier <- efficient_frontier(returns, cov_matrix)
+#'
+#' # Definir el punto del Máximo Sharpe Ratio (ejemplo)
+#' max_sharpe_data <- data.frame(Max_Sharpe_Risk = 0.04, Max_Sharpe_Return = 0.15)
+#'
+#' # Graficar la Frontera Eficiente con el punto del Máximo Sharpe Ratio
+#' plot_efficient_frontier_A(frontier, max_sharpe_data)
+#'
+#' #' # Generar un dataset aleatorio con tickers de acciones
+#' #' set.seed(123)  # Establecer semilla para reproducibilidad
 #'
 #' tickers <- c("AMZN", "MSFT", "TSLA", "AAPL")
 #' num_assets <- length(tickers)
 #'
 #' # Datos aleatorios de rendimientos
-#' returns <- matrix(rnorm(1000 * num_assets, mean = 150, sd = 20), nrow = 100, ncol = num_assets)
+#' returns <- matrix(rnorm(100 * num_assets, mean = 0.01, sd = 0.02), nrow = 100, ncol = num_assets)
 #' colnames(returns) <- tickers
 #' cov_matrix <- cov(returns)
 #'
 #' # Mostrar los primeros registros del dataset generado
 #' head(returns)
 #'
-#' #' Calculate Efficient Frontier
+#' #' Calcular la Frontera Eficiente
 #' #'
-#' #' This function calculates the Efficient Frontier given asset returns and covariance matrix.
+#' #' Esta función calcula la Frontera Eficiente dados los rendimientos de los activos y la matriz de covarianza.
 #' #'
-#' #' @param returns A matrix or data frame of asset returns.
-#' #' @param cov_matrix A covariance matrix of asset returns.
-#' #' @param risk_free_rate The risk-free rate (default is 0.02).
-#' #' @return A data frame with columns Return, Risk, and Sharpe_Ratio.
+#' #' @param returns Una matriz o data frame de rendimientos de activos.
+#' #' @param cov_matrix Una matriz de covarianza de los rendimientos de activos.
+#' #' @param risk_free_rate La tasa libre de riesgo (por defecto es 0.02).
+#' #' @return Un data frame con las columnas Return, Risk, y Sharpe_Ratio.
 #' #' @examples
-#' #' # Example usage:
+#' #' # Ejemplo de uso:
 #' #' returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
 #' #' colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
 #' #' cov_matrix <- cov(returns)
@@ -195,15 +191,15 @@ plot_efficient_frontier_A <- function(frontier_data, max_sharpe_data = NULL) {
 #'   return(frontier)
 #' }
 #'
-#' #' Plot Efficient Frontier
+#' #' Graficar la Frontera Eficiente
 #' #'
-#' #' This function plots the Efficient Frontier given a data frame containing Return, Risk, and Sharpe Ratio.
+#' #' Esta función grafica la Frontera Eficiente dado un data frame que contiene Return, Risk, y Sharpe Ratio.
 #' #'
-#' #' @param frontier_data A data frame with columns Return, Risk, and Sharpe_Ratio.
-#' #' @param max_sharpe_data A data frame with columns Max_Sharpe_Risk and Max_Sharpe_Return.
-#' #' @return A Plotly object representing the Efficient Frontier.
+#' #' @param frontier_data Un data frame con las columnas Return, Risk, y Sharpe_Ratio.
+#' #' @param max_sharpe_data Un data frame con las columnas Max_Sharpe_Risk y Max_Sharpe_Return.
+#' #' @return Un objeto Plotly que representa la Frontera Eficiente.
 #' #' @examples
-#' #' # Example usage with efficient_frontier function
+#' #' # Ejemplo de uso con la función efficient_frontier
 #' #' returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
 #' #' colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
 #' #' cov_matrix <- cov(returns)
@@ -235,21 +231,21 @@ plot_efficient_frontier_A <- function(frontier_data, max_sharpe_data = NULL) {
 #'   }
 #'
 #'   # Personalizar el diseño
-#'   p <- p %>% layout(title = 'Efficient Frontier',
-#'                     xaxis = list(title = 'Risk (Standard Deviation)'),
-#'                     yaxis = list(title = 'Return'))
+#'   p <- p %>% layout(title = 'Frontera Eficiente',
+#'                     xaxis = list(title = 'Riesgo (Desviación Estándar)'),
+#'                     yaxis = list(title = 'Retorno'))
 #'
 #'   return(p)
 #' }
-#'
-#' # Ejemplo de uso
-#' returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
-#' colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
-#' cov_matrix <- cov(returns)
-#' frontier <- efficient_frontier(returns, cov_matrix)
-#'
-#' # Definir el punto del Máximo Sharpe Ratio (ejemplo)
-#' max_sharpe_data <- data.frame(Max_Sharpe_Risk = 0.04, Max_Sharpe_Return = 0.15)
-#'
-#' # Graficar la Frontera Eficiente con el punto del Máximo Sharpe Ratio
-#' plot_efficient_frontier_A(frontier, max_sharpe_data)
+
+# Ejemplo de uso
+# returns <- matrix(rnorm(100 * 4, mean = 0.01, sd = 0.02), nrow = 100, ncol = 4)
+# colnames(returns) <- c("AMZN", "MSFT", "TSLA", "AAPL")
+# cov_matrix <- cov(returns)
+# frontier <- efficient_frontier(returns, cov_matrix)
+#
+# # Definir el punto del Máximo Sharpe Ratio (ejemplo)
+# max_sharpe_data <- data.frame(Max_Sharpe_Risk = 0.04, Max_Sharpe_Return = 0.15)
+#
+# # Graficar la Frontera Eficiente con el punto del Máximo Sharpe Ratio
+# plot_efficient_frontier_A(frontier, max_sharpe_data)

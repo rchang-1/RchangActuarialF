@@ -2,7 +2,7 @@
 % Please edit documentation in R/cash_flow_diagram.R
 \name{cash_flow_diagram_ggplot2}
 \alias{cash_flow_diagram_ggplot2}
-\title{Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Ciéntífica}
+\title{Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica}
 \usage{
 cash_flow_diagram_ggplot2(cash_flows, periods)
 }
