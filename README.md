@@ -17,33 +17,71 @@ RchangActuarialF is an R package that provides various actuarial functions for f
 Installation
 To install the package from GitHub, use the following commands in R:
 
+rchangunah.edu.hn / rchan@gunitec.edu
 
-# Install necessary packages if not installed
-if (!requireNamespace("devtools", quietly = TRUE)) {
-  install.packages("devtools")
-}
-if (!requireNamespace("htmltools", quietly = TRUE)) {
-  install.packages("htmltools", dependencies = TRUE)
-}
-if (!requireNamespace("plotly", quietly = TRUE)) {
-  install.packages("plotly")
-}
-if (!requireNamespace("quadprog", quietly = TRUE)) {
-  install.packages("quadprog")
-}
+Professor of Doctoral and Master's Programs in Systems, Economics, and Statistics for 
+Scientific Research
 
-if (!requireNamespace("quadprog", quietly = TRUE)) {
-  install.packages("quantmod")
-}
+Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
 
-# Load packages
-library(devtools)
-library(htmltools)
-library(plotly)
-library(quadprog)
-library(quantmod)
+#Installation
+Installation in R Studio
+1. Install and load the devtools library, then run:
+```{r}
+2. devtools::install_github("rchang-1/RchangActuarialF")
+```
+# Enter one or more numbers, or an empty line to skip updates
+# You can press enter, Skip updates
 
-# Install RchangActuarialF from GitHub
+Installation in Google Colab
+
+To work in Google Colab to R, it is suggested to run the following lines before executing the previous line:
+
+install.packages("plotly")
+install.packages("htmltools")
+install.packages("devtools")
+install.packages("TTR")
+install.packages("textshaping")
+install.packages("quantmod")
+install.packages("xts")
+Then load the libraries
+library("plotly")
+library("TTR")
+library("textshaping")
+library("quantmod")
+library("xts")
+library("htmltools")
+library("devtools")
+
+Finally, execute:
+devtools::install_github("rchang-1/RchangActuarialF")
+
+Instalación
+Instalación en R Studio
+1.	Instalar y cargar la librería devtools, luego ejecutar:
+```{r}
+2.	devtools::install_github("rchang-1/RchangActuarialF")
+```
+#Enter one or more numbers, or an empty line to skip updates
+#Puedes Darle enter, Skip updates (Salta los updates)
+Instalación en Google Colab
+Para trabajar en google colab to.R se sugiere antes de correr la línea anterior, ejecutar las siguientes:
+install.packages("plotly")
+install.packages("htmltools")
+install.packages("devtools")
+install.packages("TTR")
+install.packages("textshaping")
+install.packages("quantmod")
+install.packages("xts")
+Luego cargar las librerias
+library("plotly")
+library("TTR")
+library("textshaping")
+library("quantmod")
+library("xts")
+library("htmltools")
+library("devtools")
+Por último ejecutar:
 devtools::install_github("rchang-1/RchangActuarialF")
 
 Explain
