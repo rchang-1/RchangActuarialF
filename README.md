@@ -17,7 +17,7 @@ RchangActuarialF is an R package that provides various actuarial functions for f
 Installation
 To install the package from GitHub, use the following commands in R:
 
-rchangunah.edu.hn / rchan@gunitec.edu
+rchangunah.edu.hn / rchang@unitec.edu
 
 Professor of Doctoral and Master's Programs in Systems, Economics, and Statistics for 
 Scientific Research
