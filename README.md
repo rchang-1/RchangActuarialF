@@ -1,4 +1,9 @@
+RchangActuarialF: Comprehensive Financial and Actuarial Package in R | Paquete Financiero y Actuarial Integral en R: RchangActuarialF
+
 RchangActuarialF
+
+APA Citation:
+Chang-López, R. (2024). R package RchangActuarial: Comprehensive Financial and Actuarial Package in R | Paquete Financiero y Actuarial Integral en R: RchangActuarial.
 
 By Doctor Roberto Enrique Chang López
 
@@ -23,6 +28,40 @@ Professor of Doctoral and Master's Programs in Systems, Economics, and Statistic
 Scientific Research
 
 Profesor de Doctorado y Maestría en Sistemas, Economía y Estadística para la Investigación Científica
+
+APA Citation:
+Chang-López, R. (2024). R package RchangActuarial: Comprehensive Financial and Actuarial Package in R | Paquete Financiero y Actuarial Integral en R: RchangActuarial.
+
+Key Features | Características Clave
+
+1. Actuarial Functions | Funciones Actuariales: 
+   Includes essential functions for calculating Net Present Value (NPV), Internal Rate of Return (IRR), and Modified Internal Rate of Return (MIRR).  
+   Incluye funciones esenciales para calcular el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR) y la Tasa Interna de Retorno Modificada (TIRM).
+
+2. Portfolio Optimization | Optimización de Carteras: 
+   Tools for optimizing portfolio composition based on risk and return metrics, ensuring efficient investment strategies.  
+   Herramientas para optimizar la composición de carteras basadas en métricas de riesgo y rendimiento, asegurando estrategias de inversión eficientes.
+
+3. Amortization and Depreciation Schedules | Tablas de Amortización y Depreciación: 
+   Generates detailed tables for loan amortization and asset depreciation, facilitating financial planning and analysis.  
+   Genera tablas detalladas para la amortización de préstamos y la depreciación de activos, facilitando la planificación y análisis financiero.
+
+4. Bond and Stock Analysis | Análisis de Bonos y Acciones: 
+   Dedicated functions for calculating bond and stock prices and yields, providing crucial information for investment decision-making.  
+   Funciones dedicadas para el cálculo de precios y rendimientos de bonos y acciones, proporcionando información crucial para la toma de decisiones de inversión.
+
+5. Portfolio Analysis and Visualization | Análisis y Visualización de Carteras: 
+   Performs advanced portfolio analysis and visualizes results with interactive charts, enhancing understanding of investment performance.  
+   Realiza análisis avanzados de carteras y visualiza resultados con gráficos interactivos, mejorando la comprensión del rendimiento de las inversiones.
+
+6. Candlestick Charts and Market Data | Gráficos de Velas y Datos de Mercado: 
+   Retrieves and visualizes stock market data, including candlestick charts, for in-depth market analysis.  
+   Obtiene y visualiza datos del mercado de valores, incluyendo gráficos de velas, para análisis profundos del mercado.
+
+7. User-Friendly | Fácil de Usar: 
+   Easy installation and comprehensive documentation in English and Spanish, accessible to users worldwide.  
+   Instalación sencilla y documentación completa en inglés y español, accesible para usuarios a nivel mundial
+
 
 #Installation
 Installation in R Studio
